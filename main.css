@@ -1,13 +1,15 @@
-.lane {
+.laneOneBox, .laneTwoBox {
   border: 2px solid black;
-  padding: 20px;
+  padding: 10px;
 }
-
-.lane-squares {
+/*
+.laneOneBox, .laneTwoBox {
   border: 2px solid red;
   padding: 5px;
-}
+}*/
 
-.row.lane-1-row  {
-  margin: 30px;
+.lane {
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid red;
 }

@@ -19,7 +19,7 @@ Stick with the KISS (Keep It Simple Stupid) and DRY (Don’t Repeat Yourself) pr
 -->
 
 
-- create boxes that form 2 parallel lines => bootstrap
+x create boxes that form 2 parallel lines => bootstrap
 - when action occurs, respective pawn is moved to the next box (placeholder)
 - alert box (or somethign else) that announces when the pawn reaches the last box/placeholder
 
