@@ -1,0 +1,13 @@
+.lane {
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.lane-squares {
+  border: 2px solid red;
+  padding: 5px;
+}
+
+.row.lane-1-row  {
+  margin: 30px;
+}
