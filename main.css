@@ -1,5 +1,18 @@
-h1, h4 {
+
+
+.vignette {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 180px rgba(132, 201, 134,0.8) inset;
+}
+
+.instructions {
+  padding-top: 30px;
   text-align: center;
+  font-family: Helvetica, sans-serif;
 }
 
 .laneOneBox, .laneTwoBox {
@@ -26,12 +39,26 @@ h1, h4 {
 }
 
 
-img {
-  height: 40px;
+.playerOne .playerTwo {
+  height: 50px;
 }
 
+@media (max-width: 58em) {
+.playerOne .playerTwo {
+  min-height: 15px;
+}
+}
+
+@media (max-width: 58em) {
 .grass {
-  max-height: 100px;
+  min-height: 15px;
+}
+}
 
 
+
+@media (max-width: 58em) {
+.grass.invisOnSm {
+visibility:hidden;
+}
 }

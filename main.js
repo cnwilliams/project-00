@@ -24,7 +24,7 @@ console.log("main.js is linked");
 var i = 2;
 $(document).on("click", function laneOne(e){
   // Image is appended to box by altering the class name with "i"
-  $(".laneOneBox.box" + i).append("<img src='imgs/running-rabbit.png'> ");
+  $(".laneOneBox.box" + i).append("<img class='img-responsive' src='imgs/running-rabbit.png'> ");
   // Once "i" sets the class name to the final box, the .remove() is no longer called
   if (i < 13){
     $(".laneOneBox.box" + (i - 1) + " img").remove();
@@ -45,7 +45,7 @@ var x = 2;
 $(document).on("keypress", function laneTwo(event){
   // "keypress" event (couldn't figure out how to do keypress for both pawns) with AND conditional to prevent the final tortoise disappearing
     if(event.key === "a" && x < 13){
-      $(".laneTwoBox.box"+ x ).append("<img src='imgs/tortoise.png'> ");
+      $(".laneTwoBox.box"+ x ).append("<img class='img-responsive' src='imgs/tortoise.png'> ");
       $(".laneTwoBox.box" + (x - 1) + " img").remove();
       // variable "x" is set outside the function, and incrimented within
 
