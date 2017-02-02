@@ -26,3 +26,14 @@ x create boxes that form 2 parallel lines => bootstrap
 possible actions to prompt movement:
 - click
 - keypress
+
+
+--icons--
+grass1:
+https://d30y9cdsu7xlg0.cloudfront.net/png/75671-200.png
+
+grass2:
+https://image.freepik.com/iconen-gratis/gras_318-10164.jpg
+
+grass3:
+https://cdn.vectorstock.com/i/composite/70,20/grass-silhouette-vector-1337020.jpg
