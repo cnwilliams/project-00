@@ -1,5 +1,15 @@
+
+
+
+
 // sanity check:
 console.log("main.js is linked");
+
+
+// keycode:
+// a = 97
+// l = 108
+
 
 // var i = 1;
 // $(".laneOneRow").on("click", function laneOne(e){
@@ -11,17 +21,35 @@ console.log("main.js is linked");
 var i = 2;
 $(".laneOneRow").on("click", function laneOne(e){
   // console.log("i",i)
-  $(".box"+i).append("<img src='imgs/running-rabbit.png'> ");
+  $(".laneOneBox.box"+i).append("<img src='imgs/running-rabbit.png'> ");
   i++;
 });
 
-var i = 2;
-$(".laneOneRow").on("keypress", function laneOne(e){
-  // console.log("i",i)
-  $(".box"+i).append("<img src='imgs/tortoise.png'> ");
-  i++;
+
+// CORRECT CODE BELOW
+// var i = 2;
+// $(".laneOneRow").on("click", function laneOne(e){
+//   // console.log("i",i)
+//   $(".laneOneBox.box"+i).append("<img src='imgs/running-rabbit.png'> ");
+//   i++;
+// });
+
+var x = 2;
+$(document).on("keypress", function laneTwo(event){
+    if(event.key === "a"){
+    $(".laneTwoBox.box"+ x ).append("<img src='imgs/tortoise.png'> ");
+    x++;
+  }
 });
 
+
+// WORKS WITH "CLICK"
+// var i = 2;
+// $(".laneTwoRow").keypress(function laneTwo(e){
+//   console.log("i",i)
+//   $("laneTwoBox.box"+i).append("<img src='imgs/tortoise.png'> ");
+//   i++;
+// });
 
 
 
